@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+		gridTemplateColumns: {
+			"main": "280px minmax(400px, 500px) 280px"
+		}
+	},
   },
   plugins: [],
 }
