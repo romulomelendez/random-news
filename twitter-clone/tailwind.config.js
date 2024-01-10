@@ -12,7 +12,9 @@ module.exports = {
 			"menu_light_gray": "#E7E9EA"
 		},
 		backgroundColor: {
-			"menu_button_hover": "#181818"
+			"menu_button_hover": "#181818",
+			"post_btn_light": "#1D9BF0",
+			"post_btn_dark": "#1A8CD8"
 		}
 	},
   },
