@@ -1,0 +1,10 @@
+<div class="container flex flex-col bg-black">
+	@for (icon of icons; track icon.name) {
+		<button class="container flex h-auto w-max p-3 pr-6 gap-6 rounded-full justify-start items-center bg-black hover:bg-menu_button_hover cursor-pointer" type="button">
+			<mat-icon class="text-menu_light_gray text-xl" aria-hidden="false" aria-label="icon" :fontIcon="{{ icon.path }}" />
+			<span class="text-menu_light_gray text-xl">{{ icon.name }}</span>
+		</button>
+	} @empty {
+		<p>Nothing here!</p>
+	}
+</div>
