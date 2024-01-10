@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MenuOptionComponent } from "../menu-option/menu-option.component";
 import { PostButtonComponent } from "../post-button/post-button.component";
+import { XLogoComponent } from "../x-logo/x-logo.component";
 
 export type OptionsProps = {
 	path: string,
@@ -11,7 +12,7 @@ export type OptionsProps = {
     selector: 'app-left-sidebar',
     standalone: true,
     templateUrl: './left-sidebar.component.html',
-    imports: [MenuOptionComponent, PostButtonComponent]
+    imports: [MenuOptionComponent, PostButtonComponent, XLogoComponent]
 })
 export class LeftSidebarComponent {
 	icons: OptionsProps[] = [
