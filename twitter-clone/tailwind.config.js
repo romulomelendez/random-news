@@ -8,6 +8,9 @@ module.exports = {
 		gridTemplateRows: {
 			"main": "100px 1fr 60px"
 		},
+		gridTemplateColumns: {
+			"grid-cols-2-custom": "repeat(2, 50%)"
+		},
 		textColor: {
 			"menu_light_gray": "#E7E9EA"
 		},
