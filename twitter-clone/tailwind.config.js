@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
 		gridTemplateColumns: {
-			"main": "280px minmax(400px, 500px) 280px"
+			"main": "auto auto auto"
 		},
 		textColor: {
 			"menu_light_gray": "#E7E9EA"
