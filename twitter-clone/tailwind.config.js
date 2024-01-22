@@ -5,8 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-		gridTemplateColumns: {
-			"main": "auto auto auto"
+		gridTemplateRows: {
+			"main": "100px 1fr 60px"
 		},
 		textColor: {
 			"menu_light_gray": "#E7E9EA"
