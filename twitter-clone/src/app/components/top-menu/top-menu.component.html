@@ -1,17 +1,8 @@
 <header class="grid grid-rows-2 w-screen h-full bg-black border-b-2 border-slate-600 p-1">
 	<section class="flex flex-row justify-between items-center p-4">
-		<img class="w-10 h-10 rounded-full bg-lime-500" src="https://avatars.githubusercontent.com/octocat" alt="profile pic" />
+		<img class="w-10 h-10 rounded-full" src="https://avatars.githubusercontent.com/octocat" alt="profile pic" />
 		<app-x-logo />
-		<button type="button" class="cursor-pointer">
-			<mat-icon class="text-menu_light_gray text-xl" aria-hidden="false" aria-label="icon" fontIcon="settings" />
-		</button>
+		<app-settings-button />
 	</section>
-	<section class="grid grid-cols-2 p-1 w-full items-center">
-		<span class="text-center font-semibold text-white text-lg">
-			For You
-		</span>
-		<span class="text-center font-semibold text-white text-lg">
-			Following
-		</span>
-	</section>
+	<app-tab-menu />
 </header>
