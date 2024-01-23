@@ -1,60 +1,60 @@
-import { Component } from '@angular/core';
-import { MenuOptionComponent } from "../menu-option/menu-option.component";
-import { PostButtonComponent } from "../post-button/post-button.component";
-import { XLogoComponent } from "../x-logo/x-logo.component";
+import { Component } from "@angular/core"
+import { MenuOptionComponent } from "../menu-option/menu-option.component"
+import { PostButtonComponent } from "../post-button/post-button.component"
+import { XLogoComponent } from "../x-logo/x-logo.component"
 
 export type OptionsProps = {
-	path: string,
-	name: string,
+	path: string
+	name: string
 }
 
 @Component({
-    selector: 'app-left-sidebar',
-    standalone: true,
-    templateUrl: './left-sidebar.component.html',
-    imports: [MenuOptionComponent, PostButtonComponent, XLogoComponent]
+	selector: "app-left-sidebar",
+	standalone: true,
+	templateUrl: "./left-sidebar.component.html",
+	imports: [MenuOptionComponent, PostButtonComponent, XLogoComponent],
 })
 export class LeftSidebarComponent {
 	icons: OptionsProps[] = [
 		{
 			path: "home",
-			name: "Home"
+			name: "Home",
 		},
 		{
 			path: "search",
-			name: "Explore"
+			name: "Explore",
 		},
 		{
 			path: "notifications",
-			name: "Notifications"
+			name: "Notifications",
 		},
 		{
 			path: "mail",
-			name: "Messages"
+			name: "Messages",
 		},
 		{
 			path: "featured_play_list",
-			name: "Lists"
+			name: "Lists",
 		},
 		{
 			path: "bookmark",
-			name: "Bookmarks"
+			name: "Bookmarks",
 		},
 		{
 			path: "group",
-			name: "Communities"
+			name: "Communities",
 		},
 		{
 			path: "close",
-			name: "Premium"
+			name: "Premium",
 		},
 		{
 			path: "person",
-			name: "Profile"
+			name: "Profile",
 		},
 		{
 			path: "more_horiz",
-			name: "More"
+			name: "More",
 		},
-	];
+	]
 }

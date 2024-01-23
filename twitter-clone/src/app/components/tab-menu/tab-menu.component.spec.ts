@@ -1,23 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing"
 
-import { TabMenuComponent } from './tab-menu.component';
+import { TabMenuComponent } from "./tab-menu.component"
 
-describe('TabMenuComponent', () => {
-  let component: TabMenuComponent;
-  let fixture: ComponentFixture<TabMenuComponent>;
+describe("TabMenuComponent", () => {
+	let component: TabMenuComponent
+	let fixture: ComponentFixture<TabMenuComponent>
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [TabMenuComponent]
-    })
-    .compileComponents();
-    
-    fixture = TestBed.createComponent(TabMenuComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+	beforeEach(async () => {
+		await TestBed.configureTestingModule({
+			imports: [TabMenuComponent],
+		}).compileComponents()
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+		fixture = TestBed.createComponent(TabMenuComponent)
+		component = fixture.componentInstance
+		fixture.detectChanges()
+	})
+
+	it("should create", () => {
+		expect(component).toBeTruthy()
+	})
+})

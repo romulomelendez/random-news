@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
 		gridTemplateRows: {
-			"main": "100px 1fr 60px"
+			"main": "120px 1fr 60px"
 		},
 		gridTemplateColumns: {
 			"grid-cols-2-custom": "repeat(2, 50%)"
